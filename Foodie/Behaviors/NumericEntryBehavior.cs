@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 
-namespace Foodie.Behaviors
+namespace Foodie
 {
     public class NumericEntryBehavior : Behavior<Entry>
     {

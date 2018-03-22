@@ -43,10 +43,12 @@
       <DependentUpon>EditRecipePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Behaviors\NumericEntryBehavior.cs" />
+    <Compile Include="Triggers\RequiredValidationTriggerAction.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\" />
     <Folder Include="Behaviors\" />
+    <Folder Include="Triggers\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
