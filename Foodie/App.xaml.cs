@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using Foodie.Views;
+using Xamarin.Forms;
 
 namespace Foodie
 {
@@ -8,7 +9,7 @@ namespace Foodie
         {
             InitializeComponent();
 
-            MainPage = new FoodiePage();
+            MainPage = new NavigationPage(new EditRecipePage());
         }
 
         protected override void OnStart()
