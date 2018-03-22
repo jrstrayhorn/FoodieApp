@@ -42,9 +42,11 @@
     <Compile Include="Views\EditRecipePage.xaml.cs">
       <DependentUpon>EditRecipePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Behaviors\NumericEntryBehavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\" />
+    <Folder Include="Behaviors\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
