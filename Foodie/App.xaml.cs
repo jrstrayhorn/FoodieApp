@@ -9,7 +9,9 @@ namespace Foodie
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new EditRecipePage());
+            //MainPage = new NavigationPage(new EditRecipePage());
+            MainPage = new NavigationPage(new RecipeListPage());
+            //MainPage = new NavigationPage(new TestGrid());
         }
 
         protected override void OnStart()
